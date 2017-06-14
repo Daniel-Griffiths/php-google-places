@@ -15,11 +15,9 @@ composer require daniel-griffiths/php-google-places dev-master
 ```PHP
 <?php
 
-require __DIR__.'/Nearby.php';
+require __DIR__.'/vendor/autoload.php';
 
-use DanielGriffiths\GooglePlaces;
-
-$places = (new GooglePlaces('example-api-key'))
+$places = (new \DanielGriffiths\GooglePlaces('example-api-key'))
 ->setLongitude(-33.8670522)
 ->setLatitude(151.1957362)
 ->getType('shop');
