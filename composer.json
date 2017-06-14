@@ -1,0 +1,31 @@
+
+{
+    "name": "daniel-griffiths/php-google-places",
+    "type": "library",
+    "description": "A simple Google Places class",
+    "keywords": [
+        "daniel-griffiths",
+        "google",
+        "places",
+        "php",
+        "api"
+    ],
+    "homepage": "https://github.com/daniel-griffiths/php-google-places",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Griffiths",
+            "email": "contact@danielgriffiths.me",
+            "homepage": "http://danielgriffiths.me",
+            "role": "Owner"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DanielGriffiths\\": "src/"
+        }
+    },
+    "require": {
+        "php": "~5.6|~7.0"
+    }
+}
