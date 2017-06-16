@@ -100,7 +100,7 @@ class GooglePlaces
 		return json_decode(
 			file_get_contents(
 				'https://maps.googleapis.com/maps/api/place/nearbysearch/json?' . 
-				'&location=' . $this->longitude . ',' . $this->latitude .
+				'&location=' . $this->latitude . ',' . $this->longitude .
 				'&radius=' . $this->radius .
 				'&type=' . $type .
 				'&key=' . $this->apiKey
