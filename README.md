@@ -6,7 +6,7 @@ A simple Google Places class
 Via Composer
 
 ```
-composer require daniel-griffiths/php-google-places dev-master
+composer require daniel-griffiths/php-google-places
 ```
 
 
