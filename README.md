@@ -15,8 +15,6 @@ composer require daniel-griffiths/php-google-places
 ```PHP
 <?php
 
-require __DIR__.'/vendor/autoload.php';
-
 $places = (new DanielGriffiths\GooglePlaces('example-api-key'))
 ->setLongitude(-33.8670522)
 ->setLatitude(151.1957362)
